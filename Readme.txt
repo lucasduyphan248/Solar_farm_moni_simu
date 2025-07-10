@@ -27,10 +27,7 @@ sudo apt install python3-pip	: Cài đặt pip
 pip3 --version			: Kiểm tra phiên bản của pip
 ----------------------------------------------------------------------------------------------------------
 Bước 7. Tải chương trình mô phỏng xuống:
-----------------------------------------------------------------------------------------------------------
-7.1 Chạy lệnh: git clone https://gitlab.com/cuulongteam/gateway.git
-7.2 Nhập tài khoản và mật khẩu.
-----------------------------------------------------------------------------------------------------------
+
 Bước 8. Tải các thư viện cần thiết bằng cách chạy lệnh sau: 
 8.1 cd gateway/
 8.2 pip install -r requirement.txt
