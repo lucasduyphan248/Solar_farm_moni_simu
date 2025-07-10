@@ -1,0 +1,256 @@
+[42208-45812][2024:04:12-10:25:31][   INFO][logger.py:46] GW
+[42208-45812][2024:04:12-10:25:36][   INFO][main.py:114] Hostname: DESKTOP-J4S2B8O
+[42208-45812][2024:04:12-10:25:36][   INFO][main.py:115] IP Address: 192.168.1.194
+[42208-45812][2024:04:12-10:25:36][   INFO][main.py:116] ('The CPU usage is: ', 15.8)
+[42208-45812][2024:04:12-10:25:36][   INFO][main.py:118] ('RAM memory % used:', 75.6)
+[42208-45812][2024:04:12-10:25:36][   INFO][main.py:120] ('RAM Used (GB):', 12539.019264)
+[42208-45812][2024:04:12-10:25:36][   INFO][main.py:121] Location: (10.822, 106.6257, 'Vietnam', 'Ho Chi Minh')
+[42208-45812][2024:04:12-10:25:36][   INFO][main.py:136] ('RaspGateway init', '3DzlCrceDbqAh0r46I1F')
+[42208-45812][2024:04:12-10:25:36][   INFO][main.py:166] get_attributes_by_http successful: 
+[42208-45812][2024:04:12-10:25:36][   INFO][main.py:167] {'shared': {'tb_name': 'FVT-RASP-1', 'tb_id': '0796e010-f239-11ee-bb07-c92c24636e3c'}}
+[42208-45812][2024:04:12-10:25:49][   INFO][main.py:192] Init device: kaco_127.0.0.1->FVT-RASP-1_kaco_127.0.0.1
+[42208-45812][2024:04:12-10:25:54][   INFO][main.py:238] GwUpdateHardwareInfo
+[42208-45812][2024:04:12-10:25:54][   INFO][main.py:239] {'hostname': 'DESKTOP-J4S2B8O', 'ip_address': '192.168.1.194', 'disk': {}, 'rasp_cpu_percent': 2.9, 'rasp_ram_percent': 73.8, 'rasp_ram_used_mb': 12228.62848, 'latitude': 10.822, 'longitude': 106.6257, 'country': 'Vietnam', 'province': 'Ho Chi Minh'}
+[42208-45812][2024:04:12-10:25:54][   INFO][main.py:264] remote_devices_name: dict_items([('kaco_127.0.0.1', 'FVT-RASP-1_kaco_127.0.0.1')])
+[42208-45812][2024:04:12-10:25:54][   INFO][modbus_client.py:639] 
+Reading attributes from 127.0.0.1
+[42208-45812][2024:04:12-10:25:54][   INFO][main.py:330] ('Read telemetry from slave: ', '127.0.0.1')
+[42208-45812][2024:04:12-10:25:54][   INFO][modbus_client.py:633] 
+Reading data from 127.0.0.1
+[42208-45812][2024:04:12-10:25:54][   INFO][main.py:374] Amps: 13.55 A
+[42208-45812][2024:04:12-10:25:54][   INFO][main.py:374] Amps PhaseA: 16.46 A
+[42208-45812][2024:04:12-10:25:54][   INFO][main.py:374] Amps PhaseB: 34.82 A
+[42208-45812][2024:04:12-10:25:54][   INFO][main.py:374] Amps PhaseC: 12.01 A
+[42208-45812][2024:04:12-10:25:54][   INFO][main.py:374] Phase Voltage AB: 258.7 V
+[42208-45812][2024:04:12-10:25:54][   INFO][main.py:374] Phase Voltage BC: 72.1 V
+[42208-45812][2024:04:12-10:25:54][   INFO][main.py:374] Phase Voltage CA: 74.8 V
+[42208-45812][2024:04:12-10:25:54][   INFO][main.py:374] Phase Voltage AN: 89.8 V
+[42208-45812][2024:04:12-10:25:54][   INFO][main.py:374] Phase Voltage BN: 40.2 V
+[42208-45812][2024:04:12-10:25:54][   INFO][main.py:374] Phase Voltage CN: 61.7 V
+[42208-45812][2024:04:12-10:25:54][   INFO][main.py:374] Watts: -90960 W
+[42208-45812][2024:04:12-10:25:54][   INFO][main.py:374] VA: 286120 VA
+[42208-45812][2024:04:12-10:25:54][   INFO][main.py:374] WattHours: 3547659222 Wh
+[42208-45812][2024:04:12-10:25:54][   INFO][main.py:374] DC Amps: 17.82 A
+[42208-45812][2024:04:12-10:25:54][   INFO][main.py:374] DC Voltage: 284.8 V
+[42208-45812][2024:04:12-10:25:54][   INFO][main.py:374] DC Watts: 35790 W
+[42208-45812][2024:04:12-10:25:54][   INFO][main.py:374] Cabinet Temperature: 2415.3 C
+[42208-45812][2024:04:12-10:25:54][   INFO][main.py:210] Pushing data to FVT-RASP-1_kaco_127.0.0.1, len = 17
+[42208-45812][2024:04:12-10:25:54][   INFO][main.py:382] -----------
+[42208-45812][2024:04:12-10:25:54][   INFO][main.py:399]  Skip sum_watts
+[42208-45812][2024:04:12-10:25:54][   INFO][main.py:402]  sending telemetry sum_watt_hours: 3547659222
+[42208-45812][2024:04:12-10:25:54][   INFO][main.py:387] from_aggregate: {'name': 'sum_watts', 'field': 'Watts', 'eq': 'sum', 'value': 0, 'unit': 'W', 'valid': False}
+[42208-45812][2024:04:12-10:25:54][   INFO][main.py:399]  Skip sum_kwatts
+[42208-45812][2024:04:12-10:25:54][   INFO][main.py:387] from_aggregate: {'name': 'sum_watt_hours', 'field': 'WattHours', 'eq': 'sum', 'value': 3547659222, 'unit': 'Wh'}
+[42208-45812][2024:04:12-10:25:54][   INFO][main.py:399]  Skip sum_gwatt_hours
+[42208-45812][2024:04:12-10:25:54][   INFO][main.py:408] ===============================
+[42208-45812][2024:04:12-10:26:54][   INFO][main.py:330] ('Read telemetry from slave: ', '127.0.0.1')
+[42208-45812][2024:04:12-10:26:54][   INFO][modbus_client.py:633] 
+Reading data from 127.0.0.1
+[42208-45812][2024:04:12-10:26:54][   INFO][main.py:374] Amps: 29.63 A
+[42208-45812][2024:04:12-10:26:54][   INFO][main.py:374] Amps PhaseA: 13.59 A
+[42208-45812][2024:04:12-10:26:54][   INFO][main.py:374] Amps PhaseB: 24.91 A
+[42208-45812][2024:04:12-10:26:54][   INFO][main.py:374] Amps PhaseC: 19.4 A
+[42208-45812][2024:04:12-10:26:54][   INFO][main.py:374] Phase Voltage AB: 84.8 V
+[42208-45812][2024:04:12-10:26:54][   INFO][main.py:374] Phase Voltage BC: 322.5 V
+[42208-45812][2024:04:12-10:26:54][   INFO][main.py:374] Phase Voltage CA: 341.6 V
+[42208-45812][2024:04:12-10:26:54][   INFO][main.py:374] Phase Voltage AN: 197.1 V
+[42208-45812][2024:04:12-10:26:54][   INFO][main.py:374] Phase Voltage BN: 8.4 V
+[42208-45812][2024:04:12-10:26:54][   INFO][main.py:374] Phase Voltage CN: 278.7 V
+[42208-45812][2024:04:12-10:26:54][   INFO][main.py:374] Watts: -214080 W
+[42208-45812][2024:04:12-10:26:54][   INFO][main.py:374] VA: 24050 VA
+[42208-45812][2024:04:12-10:26:54][   INFO][main.py:374] WattHours: 3694921009 Wh
+[42208-45812][2024:04:12-10:26:54][   INFO][main.py:374] DC Amps: 34.92 A
+[42208-45812][2024:04:12-10:26:54][   INFO][main.py:374] DC Voltage: 283.0 V
+[42208-45812][2024:04:12-10:26:54][   INFO][main.py:374] DC Watts: -198340 W
+[42208-45812][2024:04:12-10:26:54][   INFO][main.py:374] Cabinet Temperature: -2468.0 C
+[42208-45812][2024:04:12-10:26:54][   INFO][main.py:210] Pushing data to FVT-RASP-1_kaco_127.0.0.1, len = 17
+[42208-45812][2024:04:12-10:26:54][   INFO][main.py:382] -----------
+[42208-45812][2024:04:12-10:26:54][   INFO][main.py:399]  Skip sum_watts
+[42208-45812][2024:04:12-10:26:54][   INFO][main.py:402]  sending telemetry sum_watt_hours: 3694921009
+[42208-45812][2024:04:12-10:26:54][   INFO][main.py:387] from_aggregate: {'name': 'sum_watts', 'field': 'Watts', 'eq': 'sum', 'value': 0, 'unit': 'W', 'valid': False}
+[42208-45812][2024:04:12-10:26:54][   INFO][main.py:399]  Skip sum_kwatts
+[42208-45812][2024:04:12-10:26:54][   INFO][main.py:387] from_aggregate: {'name': 'sum_watt_hours', 'field': 'WattHours', 'eq': 'sum', 'value': 3694921009, 'unit': 'Wh'}
+[42208-45812][2024:04:12-10:26:54][   INFO][main.py:399]  Skip sum_gwatt_hours
+[42208-45812][2024:04:12-10:26:54][   INFO][main.py:408] ===============================
+[42208-45812][2024:04:12-10:27:54][   INFO][main.py:330] ('Read telemetry from slave: ', '127.0.0.1')
+[42208-45812][2024:04:12-10:27:54][   INFO][modbus_client.py:633] 
+Reading data from 127.0.0.1
+[42208-45812][2024:04:12-10:27:54][   INFO][main.py:374] Amps: 25.92 A
+[42208-45812][2024:04:12-10:27:54][   INFO][main.py:374] Amps PhaseA: 10.25 A
+[42208-45812][2024:04:12-10:27:54][   INFO][main.py:374] Amps PhaseB: 27.97 A
+[42208-45812][2024:04:12-10:27:54][   INFO][main.py:374] Amps PhaseC: 18.22 A
+[42208-45812][2024:04:12-10:27:54][   INFO][main.py:374] Phase Voltage AB: 103.8 V
+[42208-45812][2024:04:12-10:27:54][   INFO][main.py:374] Phase Voltage BC: 247.9 V
+[42208-45812][2024:04:12-10:27:54][   INFO][main.py:374] Phase Voltage CA: 297.0 V
+[42208-45812][2024:04:12-10:27:54][   INFO][main.py:374] Phase Voltage AN: 36.7 V
+[42208-45812][2024:04:12-10:27:54][   INFO][main.py:374] Phase Voltage BN: 109.9 V
+[42208-45812][2024:04:12-10:27:54][   INFO][main.py:374] Phase Voltage CN: 5.5 V
+[42208-45812][2024:04:12-10:27:54][   INFO][main.py:374] Watts: 94780 W
+[42208-45812][2024:04:12-10:27:54][   INFO][main.py:374] VA: 30710 VA
+[42208-45812][2024:04:12-10:27:54][   INFO][main.py:374] WattHours: 112527911 Wh
+[42208-45812][2024:04:12-10:27:54][   INFO][main.py:374] DC Amps: 7.45 A
+[42208-45812][2024:04:12-10:27:54][   INFO][main.py:374] DC Voltage: 67.3 V
+[42208-45812][2024:04:12-10:27:54][   INFO][main.py:374] DC Watts: -195570 W
+[42208-45812][2024:04:12-10:27:54][   INFO][main.py:374] Cabinet Temperature: -1500.1 C
+[42208-45812][2024:04:12-10:27:54][   INFO][main.py:210] Pushing data to FVT-RASP-1_kaco_127.0.0.1, len = 17
+[42208-45812][2024:04:12-10:27:54][   INFO][main.py:382] -----------
+[42208-45812][2024:04:12-10:27:54][   INFO][main.py:402]  sending telemetry sum_watts: 94780
+[42208-45812][2024:04:12-10:27:54][   INFO][main.py:402]  sending telemetry sum_watt_hours: 112527911
+[42208-45812][2024:04:12-10:27:54][   INFO][main.py:387] from_aggregate: {'name': 'sum_watts', 'field': 'Watts', 'eq': 'sum', 'value': 94780, 'unit': 'W'}
+[42208-45812][2024:04:12-10:27:54][   INFO][main.py:399]  Skip sum_kwatts
+[42208-45812][2024:04:12-10:27:54][   INFO][main.py:387] from_aggregate: {'name': 'sum_watt_hours', 'field': 'WattHours', 'eq': 'sum', 'value': 112527911, 'unit': 'Wh'}
+[42208-45812][2024:04:12-10:27:54][   INFO][main.py:399]  Skip sum_gwatt_hours
+[42208-45812][2024:04:12-10:27:54][   INFO][main.py:408] ===============================
+[42208-45812][2024:04:12-10:28:54][   INFO][main.py:330] ('Read telemetry from slave: ', '127.0.0.1')
+[42208-45812][2024:04:12-10:28:54][   INFO][modbus_client.py:633] 
+Reading data from 127.0.0.1
+[42208-45812][2024:04:12-10:28:54][   INFO][main.py:374] Amps: 5.43 A
+[42208-45812][2024:04:12-10:28:54][   INFO][main.py:374] Amps PhaseA: 34.41 A
+[42208-45812][2024:04:12-10:28:54][   INFO][main.py:374] Amps PhaseB: 4.16 A
+[42208-45812][2024:04:12-10:28:54][   INFO][main.py:374] Amps PhaseC: 32.89 A
+[42208-45812][2024:04:12-10:28:54][   INFO][main.py:374] Phase Voltage AB: 222.4 V
+[42208-45812][2024:04:12-10:28:54][   INFO][main.py:374] Phase Voltage BC: 305.2 V
+[42208-45812][2024:04:12-10:28:54][   INFO][main.py:374] Phase Voltage CA: 154.7 V
+[42208-45812][2024:04:12-10:28:54][   INFO][main.py:374] Phase Voltage AN: 242.7 V
+[42208-45812][2024:04:12-10:28:54][   INFO][main.py:374] Phase Voltage BN: 328.8 V
+[42208-45812][2024:04:12-10:28:54][   INFO][main.py:374] Phase Voltage CN: 84.3 V
+[42208-45812][2024:04:12-10:28:54][   INFO][main.py:374] Watts: -57070 W
+[42208-45812][2024:04:12-10:28:54][   INFO][main.py:374] VA: 4670 VA
+[42208-45812][2024:04:12-10:28:54][   INFO][main.py:374] WattHours: 1308231291 Wh
+[42208-45812][2024:04:12-10:28:54][   INFO][main.py:374] DC Amps: 9.9 A
+[42208-45812][2024:04:12-10:28:54][   INFO][main.py:374] DC Voltage: 273.4 V
+[42208-45812][2024:04:12-10:28:54][   INFO][main.py:374] DC Watts: -114400 W
+[42208-45812][2024:04:12-10:28:54][   INFO][main.py:374] Cabinet Temperature: -2124.8 C
+[42208-45812][2024:04:12-10:28:54][   INFO][main.py:210] Pushing data to FVT-RASP-1_kaco_127.0.0.1, len = 17
+[42208-45812][2024:04:12-10:28:54][   INFO][main.py:382] -----------
+[42208-45812][2024:04:12-10:28:54][   INFO][main.py:399]  Skip sum_watts
+[42208-45812][2024:04:12-10:28:54][   INFO][main.py:402]  sending telemetry sum_watt_hours: 1308231291
+[42208-45812][2024:04:12-10:28:54][   INFO][main.py:387] from_aggregate: {'name': 'sum_watts', 'field': 'Watts', 'eq': 'sum', 'value': 0, 'unit': 'W', 'valid': False}
+[42208-45812][2024:04:12-10:28:54][   INFO][main.py:399]  Skip sum_kwatts
+[42208-45812][2024:04:12-10:28:54][   INFO][main.py:387] from_aggregate: {'name': 'sum_watt_hours', 'field': 'WattHours', 'eq': 'sum', 'value': 1308231291, 'unit': 'Wh'}
+[42208-45812][2024:04:12-10:28:54][   INFO][main.py:399]  Skip sum_gwatt_hours
+[42208-45812][2024:04:12-10:28:54][   INFO][main.py:408] ===============================
+[42208-45812][2024:04:12-10:29:54][   INFO][main.py:330] ('Read telemetry from slave: ', '127.0.0.1')
+[42208-45812][2024:04:12-10:29:54][   INFO][modbus_client.py:633] 
+Reading data from 127.0.0.1
+[42208-45812][2024:04:12-10:29:54][   INFO][main.py:374] Amps: 11.68 A
+[42208-45812][2024:04:12-10:29:54][   INFO][main.py:374] Amps PhaseA: 0.7 A
+[42208-45812][2024:04:12-10:29:54][   INFO][main.py:374] Amps PhaseB: 31.56 A
+[42208-45812][2024:04:12-10:29:54][   INFO][main.py:374] Amps PhaseC: 5.56 A
+[42208-45812][2024:04:12-10:29:54][   INFO][main.py:374] Phase Voltage AB: 196.6 V
+[42208-45812][2024:04:12-10:29:54][   INFO][main.py:374] Phase Voltage BC: 141.9 V
+[42208-45812][2024:04:12-10:29:54][   INFO][main.py:374] Phase Voltage CA: 232.0 V
+[42208-45812][2024:04:12-10:29:54][   INFO][main.py:374] Phase Voltage AN: 302.8 V
+[42208-45812][2024:04:12-10:29:54][   INFO][main.py:374] Phase Voltage BN: 119.9 V
+[42208-45812][2024:04:12-10:29:54][   INFO][main.py:374] Phase Voltage CN: 107.4 V
+[42208-45812][2024:04:12-10:29:54][   INFO][main.py:374] Watts: 43220 W
+[42208-45812][2024:04:12-10:29:54][   INFO][main.py:374] VA: -74840 VA
+[42208-45812][2024:04:12-10:29:54][   INFO][main.py:374] WattHours: 3111365537 Wh
+[42208-45812][2024:04:12-10:29:54][   INFO][main.py:374] DC Amps: 1.98 A
+[42208-45812][2024:04:12-10:29:54][   INFO][main.py:374] DC Voltage: 64.8 V
+[42208-45812][2024:04:12-10:29:54][   INFO][main.py:374] DC Watts: -245360 W
+[42208-45812][2024:04:12-10:29:54][   INFO][main.py:374] Cabinet Temperature: 1275.8 C
+[42208-45812][2024:04:12-10:29:54][   INFO][main.py:210] Pushing data to FVT-RASP-1_kaco_127.0.0.1, len = 17
+[42208-45812][2024:04:12-10:29:54][   INFO][main.py:382] -----------
+[42208-45812][2024:04:12-10:29:54][   INFO][main.py:402]  sending telemetry sum_watts: 43220
+[42208-45812][2024:04:12-10:29:54][   INFO][main.py:402]  sending telemetry sum_watt_hours: 3111365537
+[42208-45812][2024:04:12-10:29:54][   INFO][main.py:387] from_aggregate: {'name': 'sum_watts', 'field': 'Watts', 'eq': 'sum', 'value': 43220, 'unit': 'W'}
+[42208-45812][2024:04:12-10:29:54][   INFO][main.py:399]  Skip sum_kwatts
+[42208-45812][2024:04:12-10:29:54][   INFO][main.py:387] from_aggregate: {'name': 'sum_watt_hours', 'field': 'WattHours', 'eq': 'sum', 'value': 3111365537, 'unit': 'Wh'}
+[42208-45812][2024:04:12-10:29:54][   INFO][main.py:399]  Skip sum_gwatt_hours
+[42208-45812][2024:04:12-10:29:54][   INFO][main.py:408] ===============================
+[42208-45812][2024:04:12-10:30:54][   INFO][main.py:330] ('Read telemetry from slave: ', '127.0.0.1')
+[42208-45812][2024:04:12-10:30:54][   INFO][modbus_client.py:633] 
+Reading data from 127.0.0.1
+[42208-45812][2024:04:12-10:30:54][   INFO][main.py:374] Amps: 4.73 A
+[42208-45812][2024:04:12-10:30:54][   INFO][main.py:374] Amps PhaseA: 13.63 A
+[42208-45812][2024:04:12-10:30:54][   INFO][main.py:374] Amps PhaseB: 9.86 A
+[42208-45812][2024:04:12-10:30:54][   INFO][main.py:374] Amps PhaseC: 20.02 A
+[42208-45812][2024:04:12-10:30:54][   INFO][main.py:374] Phase Voltage AB: 79.2 V
+[42208-45812][2024:04:12-10:30:54][   INFO][main.py:374] Phase Voltage BC: 149.4 V
+[42208-45812][2024:04:12-10:30:54][   INFO][main.py:374] Phase Voltage CA: 47.5 V
+[42208-45812][2024:04:12-10:30:54][   INFO][main.py:374] Phase Voltage AN: 349.4 V
+[42208-45812][2024:04:12-10:30:54][   INFO][main.py:374] Phase Voltage BN: 235.6 V
+[42208-45812][2024:04:12-10:30:54][   INFO][main.py:374] Phase Voltage CN: 316.7 V
+[42208-45812][2024:04:12-10:30:54][   INFO][main.py:374] Watts: 221640 W
+[42208-45812][2024:04:12-10:30:54][   INFO][main.py:374] VA: -35190 VA
+[42208-45812][2024:04:12-10:30:54][   INFO][main.py:374] WattHours: 3723917140 Wh
+[42208-45812][2024:04:12-10:30:54][   INFO][main.py:374] DC Amps: 15.47 A
+[42208-45812][2024:04:12-10:30:54][   INFO][main.py:374] DC Voltage: 115.3 V
+[42208-45812][2024:04:12-10:30:54][   INFO][main.py:374] DC Watts: 188610 W
+[42208-45812][2024:04:12-10:30:54][   INFO][main.py:374] Cabinet Temperature: 2494.8 C
+[42208-45812][2024:04:12-10:30:54][   INFO][main.py:210] Pushing data to FVT-RASP-1_kaco_127.0.0.1, len = 17
+[42208-45812][2024:04:12-10:30:54][   INFO][main.py:382] -----------
+[42208-45812][2024:04:12-10:30:54][   INFO][main.py:402]  sending telemetry sum_watts: 221640
+[42208-45812][2024:04:12-10:30:54][   INFO][main.py:402]  sending telemetry sum_watt_hours: 3723917140
+[42208-45812][2024:04:12-10:30:54][   INFO][main.py:387] from_aggregate: {'name': 'sum_watts', 'field': 'Watts', 'eq': 'sum', 'value': 221640, 'unit': 'W'}
+[42208-45812][2024:04:12-10:30:54][   INFO][main.py:399]  Skip sum_kwatts
+[42208-45812][2024:04:12-10:30:54][   INFO][main.py:387] from_aggregate: {'name': 'sum_watt_hours', 'field': 'WattHours', 'eq': 'sum', 'value': 3723917140, 'unit': 'Wh'}
+[42208-45812][2024:04:12-10:30:54][   INFO][main.py:399]  Skip sum_gwatt_hours
+[42208-45812][2024:04:12-10:30:54][   INFO][main.py:408] ===============================
+[42208-45812][2024:04:12-10:31:16][  ERROR][main.py:411] Client stopped.
+[11044-40520][2024:04:12-10:31:21][   INFO][logger.py:46] GW
+[11044-40520][2024:04:12-10:31:25][   INFO][main.py:114] Hostname: DESKTOP-J4S2B8O
+[11044-40520][2024:04:12-10:31:25][   INFO][main.py:115] IP Address: 192.168.1.194
+[11044-40520][2024:04:12-10:31:25][   INFO][main.py:116] ('The CPU usage is: ', 5.6)
+[11044-40520][2024:04:12-10:31:25][   INFO][main.py:118] ('RAM memory % used:', 74.5)
+[11044-40520][2024:04:12-10:31:25][   INFO][main.py:120] ('RAM Used (GB):', 12349.108224)
+[11044-40520][2024:04:12-10:31:25][   INFO][main.py:121] Location: (10.822, 106.6257, 'Vietnam', 'Ho Chi Minh')
+[11044-40520][2024:04:12-10:31:25][   INFO][main.py:136] ('RaspGateway init', '3DzlCrceDbqAh0r46I1F')
+[11044-40520][2024:04:12-10:31:25][   INFO][main.py:166] get_attributes_by_http successful: 
+[11044-40520][2024:04:12-10:31:25][   INFO][main.py:167] {'shared': {'tb_name': 'FVT-RASP-1', 'tb_id': '0796e010-f239-11ee-bb07-c92c24636e3c'}}
+[11044-40520][2024:04:12-10:31:37][   INFO][main.py:192] Init device: kaco_127.0.0.1->FVT-RASP-1_kaco_127.0.0.1
+[11044-40520][2024:04:12-10:31:42][   INFO][main.py:238] GwUpdateHardwareInfo
+[11044-40520][2024:04:12-10:31:42][   INFO][main.py:239] {'hostname': 'DESKTOP-J4S2B8O', 'ip_address': '192.168.1.194', 'disk': {}, 'rasp_cpu_percent': 5.9, 'rasp_ram_percent': 73.2, 'rasp_ram_used_mb': 12132.671488, 'latitude': 10.822, 'longitude': 106.6257, 'country': 'Vietnam', 'province': 'Ho Chi Minh'}
+[11044-40520][2024:04:12-10:31:42][   INFO][main.py:264] remote_devices_name: dict_items([('kaco_127.0.0.1', 'FVT-RASP-1_kaco_127.0.0.1')])
+[11044-40520][2024:04:12-10:31:42][   INFO][modbus_client.py:639] 
+Reading attributes from 127.0.0.1
+[11044-40520][2024:04:12-10:31:42][   INFO][main.py:330] ('Read telemetry from slave: ', '127.0.0.1')
+[11044-40520][2024:04:12-10:31:42][   INFO][modbus_client.py:633] 
+Reading data from 127.0.0.1
+[47472-47388][2024:04:12-10:32:17][   INFO][logger.py:46] GW
+[47472-47388][2024:04:12-10:32:22][   INFO][main.py:114] Hostname: DESKTOP-J4S2B8O
+[47472-47388][2024:04:12-10:32:22][   INFO][main.py:115] IP Address: 192.168.1.194
+[47472-47388][2024:04:12-10:32:22][   INFO][main.py:116] ('The CPU usage is: ', 3.5)
+[47472-47388][2024:04:12-10:32:22][   INFO][main.py:118] ('RAM memory % used:', 73.3)
+[47472-47388][2024:04:12-10:32:22][   INFO][main.py:120] ('RAM Used (GB):', 12156.051456)
+[47472-47388][2024:04:12-10:32:22][   INFO][main.py:121] Location: (10.822, 106.6257, 'Vietnam', 'Ho Chi Minh')
+[47472-47388][2024:04:12-10:32:22][   INFO][main.py:136] ('RaspGateway init', '3DzlCrceDbqAh0r46I1F')
+[47472-47388][2024:04:12-10:32:22][   INFO][main.py:166] get_attributes_by_http successful: 
+[47472-47388][2024:04:12-10:32:22][   INFO][main.py:167] {'shared': {'tb_name': 'FVT-RASP-1', 'tb_id': '0796e010-f239-11ee-bb07-c92c24636e3c'}}
+[47472-47388][2024:04:12-10:32:33][   INFO][main.py:192] Init device: kaco_127.0.0.1->FVT-RASP-1_kaco_127.0.0.1
+[47472-47388][2024:04:12-10:32:38][   INFO][main.py:238] GwUpdateHardwareInfo
+[47472-47388][2024:04:12-10:32:38][   INFO][main.py:239] {'hostname': 'DESKTOP-J4S2B8O', 'ip_address': '192.168.1.194', 'disk': {}, 'rasp_cpu_percent': 6.9, 'rasp_ram_percent': 73.9, 'rasp_ram_used_mb': 12201.086976, 'latitude': 10.822, 'longitude': 106.6257, 'country': 'Vietnam', 'province': 'Ho Chi Minh'}
+[47472-47388][2024:04:12-10:32:38][   INFO][main.py:264] remote_devices_name: dict_items([('kaco_127.0.0.1', 'FVT-RASP-1_kaco_127.0.0.1')])
+[47472-47388][2024:04:12-10:32:38][   INFO][modbus_client.py:639] 
+Reading attributes from 127.0.0.1
+[47472-47388][2024:04:12-10:32:38][   INFO][main.py:330] ('Read telemetry from slave: ', '127.0.0.1')
+[47472-47388][2024:04:12-10:32:38][   INFO][modbus_client.py:633] 
+Reading data from 127.0.0.1
+[47472-47388][2024:04:12-10:32:38][   INFO][main.py:374] Amps: 22.42 A
+[47472-47388][2024:04:12-10:32:38][   INFO][main.py:374] Amps PhaseA: 2.94 A
+[47472-47388][2024:04:12-10:32:38][   INFO][main.py:374] Amps PhaseB: 9.48 A
+[47472-47388][2024:04:12-10:32:38][   INFO][main.py:374] Amps PhaseC: 7.94 A
+[47472-47388][2024:04:12-10:32:38][   INFO][main.py:374] Phase Voltage AB: 230.6 V
+[47472-47388][2024:04:12-10:32:38][   INFO][main.py:374] Phase Voltage BC: 106.8 V
+[47472-47388][2024:04:12-10:32:38][   INFO][main.py:374] Phase Voltage CA: 92.0 V
+[47472-47388][2024:04:12-10:32:38][   INFO][main.py:374] Phase Voltage AN: 81.4 V
+[47472-47388][2024:04:12-10:32:38][   INFO][main.py:374] Phase Voltage BN: 236.2 V
+[47472-47388][2024:04:12-10:32:38][   INFO][main.py:374] Phase Voltage CN: 49.4 V
+[47472-47388][2024:04:12-10:32:38][   INFO][main.py:374] Watts: -7440 W
+[47472-47388][2024:04:12-10:32:38][   INFO][main.py:374] VA: -6620 VA
+[47472-47388][2024:04:12-10:32:38][   INFO][main.py:374] WattHours: 4268556265 Wh
+[47472-47388][2024:04:12-10:32:38][   INFO][main.py:374] DC Amps: 22.65 A
+[47472-47388][2024:04:12-10:32:38][   INFO][main.py:374] DC Voltage: 46.1 V
+[47472-47388][2024:04:12-10:32:38][   INFO][main.py:374] DC Watts: 63730 W
+[47472-47388][2024:04:12-10:32:38][   INFO][main.py:374] Cabinet Temperature: 1170.6 C
+[47472-47388][2024:04:12-10:32:38][   INFO][main.py:210] Pushing data to FVT-RASP-1_kaco_127.0.0.1, len = 17
+[47472-47388][2024:04:12-10:32:38][   INFO][main.py:382] -----------
+[47472-47388][2024:04:12-10:32:38][   INFO][main.py:399]  Skip sum_watts
+[47472-47388][2024:04:12-10:32:38][   INFO][main.py:402]  sending telemetry sum_watt_hours: 4268556265
+[47472-47388][2024:04:12-10:32:38][   INFO][main.py:387] from_aggregate: {'name': 'sum_watts', 'field': 'Watts', 'eq': 'sum', 'value': 0, 'unit': 'W', 'valid': False}
+[47472-47388][2024:04:12-10:32:38][   INFO][main.py:399]  Skip sum_kwatts
+[47472-47388][2024:04:12-10:32:38][   INFO][main.py:387] from_aggregate: {'name': 'sum_watt_hours', 'field': 'WattHours', 'eq': 'sum', 'value': 4268556265, 'unit': 'Wh'}
+[47472-47388][2024:04:12-10:32:38][   INFO][main.py:399]  Skip sum_gwatt_hours
+[47472-47388][2024:04:12-10:32:38][   INFO][main.py:408] ===============================
+[47472-47388][2024:04:12-10:33:02][  ERROR][main.py:411] Client stopped.
